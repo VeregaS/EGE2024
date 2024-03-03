@@ -1,14 +1,12 @@
-def f(start, end, last_h):
-    if start == end:
+def f(s, e, last_h):
+    if s == e:
         return 1
-    if  start > end:
+    if s > e:
         return 0
-    if start < end:
-        if last_h != 'A':
-            return f(start + 3, end, 'A') + f(start * 5, end, 'B') + f(start * 7, end, 'C')
-        if last_h == 'A':
-            return f(start + 3, end, 'A') + f(start * 7, end, 'C')
-
+    if last_h == "a":
+        return f(s + 3, e, 'a') + f(s * 7, e, 'c')
+    else:
+        return f(s + 3, e, 'a') + f(s * 5, e, 'b') + f(s * 7, e, 'c')
     
 
-print(f(1, 1000, '')) 
+print(f(1, 1000, ''))
