@@ -1,4 +1,4 @@
-s = open('24/1.txt').readline()
+s = open('24/txts/1.txt').readline()
 bad = 'LISENOK'
 lenghts = []
 counter = 0

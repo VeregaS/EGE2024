@@ -1,4 +1,4 @@
-s = list(int(i.rstrip('\n')) for i in open('17-3.txt').readlines())
+s = list(int(i.rstrip('\n')) for i in open('17/txts/17-3.txt').readlines())
 counter = 0
 gip_sum = 0
 

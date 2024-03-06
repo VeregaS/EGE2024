@@ -1,4 +1,4 @@
-s = list(int(i.rstrip('\n')) for i in open('17-2.txt').readlines())
+s = list(int(i.rstrip('\n')) for i in open('17/txts/17-2.txt').readlines())
 m = []
 
 for n in s:

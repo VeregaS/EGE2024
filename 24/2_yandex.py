@@ -1,6 +1,6 @@
 from itertools import product
 
-s = open('24/2.txt').readline()
+s = open('24/txts/2.txt').readline()
 lenghts = []
 bad = list("".join(i) for i in product('ABC', repeat=2))
 counter = 1

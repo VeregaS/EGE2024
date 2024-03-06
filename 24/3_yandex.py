@@ -1,4 +1,4 @@
-s = open('24/3.txt').readline()
+s = open('24/txts/3.txt').readline()
 s = s.replace('4', 'a')
 s = s.replace('3', 'e')
 #yandex

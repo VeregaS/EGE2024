@@ -1,4 +1,4 @@
-s = list(int(i.rstrip('\n')) for i in open('17-4.txt').readlines())
+s = list(int(i.rstrip('\n')) for i in open('17/txts/17-4.txt').readlines())
 counter = 0
 sumi2 = 10**8
 for i in range(len(s) - 1):

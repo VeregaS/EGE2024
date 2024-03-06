@@ -1,4 +1,4 @@
-s = [int(i.rstrip('\n')) for i in open('17/17-341.txt').readlines()]
+s = [int(i.rstrip('\n')) for i in open('17/txts/17-341.txt').readlines()]
 
 counter = 0
 a = []

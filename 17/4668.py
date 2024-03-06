@@ -1,4 +1,4 @@
-s = list(int(i.rstrip('\n')) for i in open('17-5.txt').readlines())
+s = list(int(i.rstrip('\n')) for i in open('17/txts/17-5.txt').readlines())
 counter = 0
 sumi = []
 
